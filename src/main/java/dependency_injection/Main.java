@@ -34,7 +34,13 @@ public class Main {
         Application app = new Application(System.out);
         app.run();
 
-        /*
+        PrinterWithTimestamp yeet = new PrinterWithTimestamp();
+
+        Application honk = new Application(yeet);
+
+        honk.run();
+
+         /*
          * After running the code, try creating an Application and passing in an
          * instance of the PrinterWithTimestamp class as an argument.
          *
